@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
 
   return {
-    base: './',
+    base: '/thinh-nguyen-cv/',
     build: {
       target: 'es2015',
       outDir: 'public',
