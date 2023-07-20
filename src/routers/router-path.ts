@@ -1,0 +1,15 @@
+export enum RouterPath {
+  home = '/',
+  logout = '/logout',
+  signIn = '/sign-in',
+  signUp = '/sign-up',
+  services = '/services',
+  projects = '/projects',
+  about = '/about',
+  carrers = '/carrers',
+  contact = '/contact',
+  forgotPassword = '/forgotPassword',
+  myAccount = '/my-account',
+  checkout = '/checkout/:id',
+  order = '/order/:id',
+}

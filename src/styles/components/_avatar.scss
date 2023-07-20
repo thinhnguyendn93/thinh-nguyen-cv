@@ -1,0 +1,55 @@
+.ant-avatar {
+  @include typo("body", "semi-bold");
+  line-height: 24px;
+  width: 24px;
+  height: 24px;
+  text-transform: uppercase;
+  color: var(--color-azure-radiance);
+  background: var(--color-zircon);
+
+  &-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-square {
+    border-radius: 4px;
+  }
+
+  &__script {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-peach-schnapps);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  &-lg {
+    width: 40px;
+    height: 40px;
+  }
+
+  &--yellow {
+    background: var(--color-school-bus-yellow);
+  }
+
+  &--riptide {
+    background: var(--color-riptide-100);
+  }
+
+  &--salomie {
+    background: var(--color-salomie);
+  }
+}
+
+.ant-popover-inner-content {
+  display: flex;
+  gap: 4px;
+}

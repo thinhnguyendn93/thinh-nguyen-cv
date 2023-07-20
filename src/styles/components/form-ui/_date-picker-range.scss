@@ -1,0 +1,71 @@
+.ant-picker-range {
+  width: 100%;
+  border-radius: 6px;
+  border-color: var(--color-alto);
+
+  &:hover {
+    border-color: var(--color-alto);
+  }
+
+  &--small {
+    height: 28px;
+
+    .ant-picker {
+      height: 100%;
+      background-color: transparent;
+    }
+  }
+
+  &--large {
+    height: 32px;
+
+    .ant-picker {
+      height: 100%;
+      background-color: transparent;
+    }
+  }
+
+  &--extra-large {
+    height: 40px;
+
+    .ant-picker {
+      height: 100%;
+      background-color: transparent;
+    }
+  }
+
+  &.ant-picker-focused {
+    border-color: var(--color-science-blue);
+    box-shadow: 0 0 0 3px var(--color-science-blue-100);
+  }
+
+  &__wrapper {
+    width: 100%;
+
+    .ant-form-item {
+      height: 100%;
+
+      &-row,
+      &-control,
+      &-control-input-content {
+        height: 100%;
+      }
+    }
+  }
+
+  .ant-picker-input {
+    & > input {
+      @include typo("body", "regular");
+    }
+  }
+
+  .anticon-swap-right {
+    svg {
+      display: none;
+    }
+
+    &:after {
+      @include font-icon("chevron-double-right");
+    }
+  }
+}

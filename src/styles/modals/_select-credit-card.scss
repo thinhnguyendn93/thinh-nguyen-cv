@@ -1,0 +1,23 @@
+.select-credit-card {
+  .ant-radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .ant-radio-wrapper {
+    position: relative;
+
+    span:last-child {
+      width: 100%;
+      padding: 0;
+    }
+
+    .ant-radio {
+      position: absolute;
+      right: 16px;
+      top: 8px;
+      width: 16px;
+    }
+  }
+}

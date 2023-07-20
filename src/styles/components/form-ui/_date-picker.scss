@@ -1,0 +1,224 @@
+$ant-picker-cell-height: 24px;
+$ant-picker-cell-width: 40px;
+
+.ant-picker-dropdown {
+  @include typo("body", "medium");
+
+  .ant-picker-panel-container {
+    border-radius: 4px;
+    padding: 8px;
+    gap: 8px;
+
+    .ant-picker-cell {
+      color: var(--color-dove-gray-100);
+
+      &:before {
+        height: $ant-picker-cell-height;
+      }
+
+      &.ant-picker-cell-in-view {
+        color: var(--color-black);
+      }
+    }
+
+    .ant-picker-content {
+      padding-bottom: 8px;
+
+      td {
+        min-width: $ant-picker-cell-width;
+        height: $ant-picker-cell-height;
+      }
+    }
+
+    .ant-picker-cell-inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: $ant-picker-cell-width;
+      height: $ant-picker-cell-height;
+      line-height: $ant-picker-cell-height;
+      border-radius: 8px;
+    }
+
+    .ant-picker-year-panel,
+    .ant-picker-month-panel,
+    .ant-picker-decade-panel {
+      width: 310px;
+
+      .ant-picker-cell-inner {
+        width: auto;
+      }
+
+      .ant-picker-cell {
+        padding: 3px 10px;
+      }
+    }
+
+    .ant-picker-cell-selected {
+      .ant-picker-cell-inner {
+        background-color: var(--color-congress-blue);
+      }
+    }
+
+    .ant-picker-panel {
+      border: none;
+    }
+
+    .ant-picker-footer {
+      .ant-tag-blue {
+        background: var(--color-science-blue);
+        color: var(--color-white);
+        border: none;
+      }
+    }
+  }
+
+  .ant-picker-range-wrapper {
+    min-width: 310px !important;
+
+    .ant-picker-year-panel,
+    .ant-picker-month-panel,
+    .ant-picker-decade-panel {
+      width: 310px;
+
+      .ant-picker-cell-inner {
+        width: auto;
+      }
+
+      .ant-picker-cell {
+        padding: 3px 10px;
+      }
+
+      .ant-picker-cell-range-start {
+        padding: 3px 0;
+      }
+    }
+  }
+
+  .ant-picker-cell-in-view {
+    &.ant-picker-cell-range-start,
+    &.ant-picker-cell-range-end {
+      .ant-picker-cell-inner {
+        background: var(--color-congress-blue);
+        border-radius: 4px !important;
+      }
+
+      &:before {
+        background: var(--color-french-pass);
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+    }
+
+    &.ant-picker-cell-range-end {
+      &:before {
+        border-radius: 0 8px 8px 0;
+      }
+    }
+
+    &.ant-picker-cell-range-start {
+      &:not(.ant-picker-cell-range-start-single) {
+        &.ant-picker-cell-range-hover-start {
+          &:before {
+            background: var(--color-anakiwa);
+          }
+        }
+      }
+    }
+
+    &.ant-picker-cell-today {
+      @include typo("body", "semi-bold");
+
+      .ant-picker-cell-inner {
+        &:before {
+          border: none;
+        }
+      }
+
+      &.ant-picker-cell-selected {
+        .ant-picker-cell-inner {
+          color: var(--color-white);
+        }
+      }
+    }
+
+    &.ant-picker-cell-in-range {
+      &:before {
+        background: var(--color-french-pass);
+      }
+
+      &:last-child {
+        &:before {
+          border-top-right-radius: 8px;
+          border-bottom-right-radius: 8px;
+        }
+      }
+
+      &.ant-picker-cell-range-hover,
+      &.ant-picker-cell-range-hover-start,
+      &.ant-picker-cell-range-hover-end {
+        &:before {
+          background: var(--color-anakiwa);
+          overflow: hidden;
+        }
+
+        .ant-picker-cell-inner {
+          &:after {
+            width: $ant-picker-cell-width;
+            left: 0;
+            background: var(--color-anakiwa) !important;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+
+  .ant-picker-panel > :not(.ant-picker-date-panel) {
+    .ant-picker-cell-in-view {
+      &.ant-picker-cell-in-range {
+        &.ant-picker-cell-range-hover-start,
+        &.ant-picker-cell-range-hover-end {
+          &:before {
+            background: var(--color-anakiwa);
+          }
+        }
+      }
+    }
+  }
+
+  .ant-picker-date-panel {
+    width: 340px;
+
+    .ant-picker-header {
+      padding: 10px 8px 0;
+
+      &-next-btn,
+      &-super-next-btn,
+      &-prev-btn,
+      &-super-prev-btn {
+        color: var(--color-science-blue);
+      }
+    }
+
+    .ant-picker-header-view {
+      @include typo("body", "semi-bold");
+
+      .ant-picker-month-btn,
+      .ant-picker-year-btn {
+        color: var(--color-science-blue);
+      }
+    }
+
+    .ant-picker-content {
+      width: 310px;
+
+      th {
+        text-transform: uppercase;
+        color: var(--color-dove-gray-100);
+
+        @include typo("body", "semi-bold");
+      }
+    }
+  }
+}

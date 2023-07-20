@@ -1,0 +1,59 @@
+.time-picker {
+  width: 100%;
+
+  .ant-picker {
+    border: 1px solid var(--color-alto);
+    border-radius: 6px;
+    width: 100%;
+
+    &-input {
+      > input {
+        @include typo("body", "medium");
+        color: var(--color-mine-shaft);
+      }
+    }
+
+    &.ant-picker-focused {
+      border-color: var(--color-science-blue);
+      box-shadow: 0 0 0 3px var(--color-transparent-200);
+    }
+
+    &-disabled {
+      opacity: 0.3;
+      background: var(--color-white);
+
+      input {
+        color: var(--color-mine-shaft);
+
+        &::placeholder {
+          color: var(--color-mine-shaft);
+        }
+      }
+    }
+  }
+}
+
+.ant-picker-time-panel-cell-selected {
+  .ant-picker-time-panel-cell-inner {
+    background: var(--color-french-pass) !important;
+    border-radius: 4px !important;
+    gap: 10px;
+  }
+}
+
+.ant-picker-footer {
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+
+  .ant-picker-now {
+    display: none;
+  }
+
+  .ant-picker-ok {
+    button {
+      border-radius: 6px;
+      padding: 4px 8px;
+    }
+  }
+}

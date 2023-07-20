@@ -1,0 +1,259 @@
+.home-page {
+  $root: &;
+  width: 100%;
+
+  &__body {
+    margin-top: 24px;
+  }
+
+  &__section-contact {
+    border-top: 1px solid var(--color-alto);
+
+    .ant-menu {
+      min-width: 150px;
+
+      &-item {
+        padding-left: 8px !important;
+      }
+    }
+  }
+
+  &__header-text {
+    @include typo("heading1", "bold");
+    letter-spacing: -0.02em;
+  }
+
+  &__sub-header {
+    @include typo("body", "medium");
+  }
+
+  &__sub-headline-text {
+    @include typo("heading3", "bold");
+    color: var(--color-black);
+    margin-bottom: 24px;
+  }
+
+  &__headline-text {
+    @include typo("display", "bold");
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+
+  &__headline-text {
+    @include typo("display", "bold");
+    padding-right: 50px;
+  }
+
+  &__headline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  &__headline-block {
+    display: block;
+    max-width: 624px;
+    background-color: transparent;
+    border-radius: 16px;
+    padding-left: 32px 0;
+    margin-right: 40px;
+  }
+
+  &__sub-headline-block {
+    background-color: transparent;
+  }
+
+  &__section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+    position: relative;
+    overflow: hidden;
+
+    &--background {
+      background-color: var(--color-ebony);
+    }
+
+    &--small {
+      padding: 25px 0;
+    }
+  }
+
+  &__section-header {
+    @include typo("display", "bold");
+    color: var(--color-white);
+    margin-bottom: 16px;
+    max-width: 720px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  &__description {
+    @include typo("body-large", "regular");
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__section-title {
+    @include typo("heading1", "bold");
+    color: var(--color-white);
+  }
+
+  &__section-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 1200px;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+
+    &--align-left {
+      align-items: flex-start;
+    }
+
+    .ant-row {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__sub-description {
+    @include typo("body", "regular");
+    color: var(--color-white-100);
+  }
+
+  &__section-description {
+    @include typo("body", "regular");
+    color: var(--color-white-100);
+  }
+
+  &__cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    row-gap: 24px;
+    column-gap: 24px;
+
+    &--flex {
+      display: flex;
+      column-gap: 16px;
+      margin-top: 0;
+    }
+  }
+
+  &__section-footer {
+    margin-top: 32px;
+  }
+
+  &__footer-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 64px;
+    max-width: 1200px;
+    justify-content: space-between;
+  }
+
+  &__footer-socials {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .font-icon {
+      cursor: pointer;
+    }
+  }
+
+  &__footer {
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-pattens-blue-100);
+
+    #{$root}__footer-wrapper {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 100%;
+      align-items: center;
+    }
+
+    .ant-select {
+      &__wrapper {
+        width: 135px;
+      }
+    }
+  }
+
+  &__background {
+    background-image: resolve("assets/images/background.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  &__banner {
+    background-image: resolve("assets/images/wave-background.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    padding-top: 80px !important;
+    padding-bottom: 186px;
+
+    #{$root}__sub-header {
+      margin-bottom: 8px;
+    }
+
+    #{$root}__headline-text,
+    #{$root}__sub-headline-text {
+      margin-bottom: 0;
+    }
+  }
+
+  &__technologies {
+    background: #f5fbff;
+    padding: 64px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  &__banner-image {
+    max-width: 100%;
+    width: 400px;
+    border-radius: 50%;
+    aspect-ratio: 1 /1;
+  }
+
+  &__copy-right {
+    @include typo("body-large", "regular");
+    color: var(--color-tundora-200);
+  }
+
+  &__sub-title {
+    @include typo("heading5", "semi-bold");
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  ul {
+    @include typo("body-large", "regular");
+  }
+}
+
+.cv-name {
+  color: var(--color-carnation);
+}
+
+#my-projects {
+  .box {
+    height: 100%;
+  }
+}
