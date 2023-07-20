@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
 
   return {
-    base: '/thinh-nguyen-cv/',
+    base: './',
     build: {
       target: 'es2015',
       outDir: 'public',
@@ -28,14 +28,14 @@ export default defineConfig(({ mode }) => {
           chunkFileNames: 'app.[hash].chunk.js',
           assetFileNames: ({ name }) => {
             if (/\.(gif|jpe?g|png|svg)$/.test(name ?? '')) {
-              return 'thinh-nguyen-cv/assets/images/[name]-[hash][extname]';
+              return 'assets/images/[name]-[hash][extname]';
             }
 
             if (/\.css$/.test(name ?? '')) {
-              return 'thinh-nguyen-cv/assets/css/[name]-[hash][extname]';
+              return 'assets/css/[name]-[hash][extname]';
             }
 
-            return 'thinh-nguyen-cv/assets/[name]-[hash][extname]';
+            return 'assets/[name]-[hash][extname]';
           },
         },
       },
