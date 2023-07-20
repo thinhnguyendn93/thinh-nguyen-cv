@@ -1,0 +1,123 @@
+{
+  "assets/favicon/favicon.ico": {
+    "file": "assets/favicon-a69cfcce.ico",
+    "src": "assets/favicon/favicon.ico"
+  },
+  "assets/favicon/safari-pinned-tab.svg": {
+    "file": "assets/images/safari-pinned-tab-5a5371bb.svg",
+    "src": "assets/favicon/safari-pinned-tab.svg"
+  },
+  "assets/images/logo.png": {
+    "file": "assets/images/logo-2f010151.png",
+    "src": "assets/images/logo.png"
+  },
+  "assets/images/logo-full.svg": {
+    "file": "assets/images/logo-full-25f91f70.svg",
+    "src": "assets/images/logo-full.svg"
+  },
+  "assets/images/avatar.jpg": {
+    "file": "assets/images/avatar-27d2ac7d.jpg",
+    "src": "assets/images/avatar.jpg"
+  },
+  "assets/images/flutter.svg": {
+    "file": "assets/images/flutter-7359b9e1.svg",
+    "src": "assets/images/flutter.svg"
+  },
+  "assets/images/bootstrap.svg": {
+    "file": "assets/images/bootstrap-ce6fad58.svg",
+    "src": "assets/images/bootstrap.svg"
+  },
+  "assets/images/electron.svg": {
+    "file": "assets/images/electron-1495640d.svg",
+    "src": "assets/images/electron.svg"
+  },
+  "assets/images/css.svg": {
+    "file": "assets/images/css-b8dca14a.svg",
+    "src": "assets/images/css.svg"
+  },
+  "assets/images/html.svg": {
+    "file": "assets/images/html-35647250.svg",
+    "src": "assets/images/html.svg"
+  },
+  "assets/images/javascript.svg": {
+    "file": "assets/images/javascript-8238a57e.svg",
+    "src": "assets/images/javascript.svg"
+  },
+  "assets/images/vietnam-flag.svg": {
+    "file": "assets/images/vietnam-flag-a81374c9.svg",
+    "src": "assets/images/vietnam-flag.svg"
+  },
+  "assets/images/usa-flag.svg": {
+    "file": "assets/images/usa-flag-9001b193.svg",
+    "src": "assets/images/usa-flag.svg"
+  },
+  "assets/images/c-sharp.svg": {
+    "file": "assets/images/c-sharp-2a5fcf07.svg",
+    "src": "assets/images/c-sharp.svg"
+  },
+  "assets/images/dotnet.svg": {
+    "file": "assets/images/dotnet-f458ca0c.svg",
+    "src": "assets/images/dotnet.svg"
+  },
+  "assets/images/react.svg": {
+    "file": "assets/images/react-1bfd7c23.svg",
+    "src": "assets/images/react.svg"
+  },
+  "assets/images/card-visa.svg": {
+    "file": "assets/images/card-visa-cc5126f8.svg",
+    "src": "assets/images/card-visa.svg"
+  },
+  "assets/images/empty-profile.svg": {
+    "file": "assets/images/empty-profile-f12a120e.svg",
+    "src": "assets/images/empty-profile.svg"
+  },
+  "assets/images/sign-in-cover.svg": {
+    "file": "assets/images/sign-in-cover-26c06e34.svg",
+    "src": "assets/images/sign-in-cover.svg"
+  },
+  "assets/images/card-mastercard.svg": {
+    "file": "assets/images/card-mastercard-7abcb6e2.svg",
+    "src": "assets/images/card-mastercard.svg"
+  },
+  "assets/images/thinh-nguyen.png": {
+    "file": "assets/images/thinh-nguyen-963ef495.png",
+    "src": "assets/images/thinh-nguyen.png"
+  },
+  "assets/others/thinh-nguyen-cv.pdf": {
+    "file": "assets/thinh-nguyen-cv-17336e32.pdf",
+    "src": "assets/others/thinh-nguyen-cv.pdf"
+  },
+  "index.html": {
+    "file": "app.0392084c.js",
+    "src": "index.html",
+    "isEntry": true,
+    "css": [
+      "assets/css/index-8bc0b73a.css"
+    ],
+    "assets": [
+      "assets/images/logo-full-25f91f70.svg",
+      "assets/images/avatar-27d2ac7d.jpg",
+      "assets/images/usa-flag-9001b193.svg",
+      "assets/images/vietnam-flag-a81374c9.svg",
+      "assets/images/flutter-7359b9e1.svg",
+      "assets/images/bootstrap-ce6fad58.svg",
+      "assets/images/electron-1495640d.svg",
+      "assets/images/css-b8dca14a.svg",
+      "assets/images/html-35647250.svg",
+      "assets/images/javascript-8238a57e.svg",
+      "assets/images/c-sharp-2a5fcf07.svg",
+      "assets/images/dotnet-f458ca0c.svg",
+      "assets/images/react-1bfd7c23.svg",
+      "assets/images/sign-in-cover-26c06e34.svg",
+      "assets/images/empty-profile-f12a120e.svg",
+      "assets/images/card-visa-cc5126f8.svg",
+      "assets/images/card-mastercard-7abcb6e2.svg",
+      "assets/images/thinh-nguyen-963ef495.png",
+      "assets/thinh-nguyen-cv-17336e32.pdf"
+    ]
+  },
+  "index.css": {
+    "file": "assets/css/index-8bc0b73a.css",
+    "src": "index.css"
+  }
+}
