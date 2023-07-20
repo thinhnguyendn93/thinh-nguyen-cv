@@ -11,21 +11,25 @@
     "file": "assets/images/logo-2f010151.png",
     "src": "assets/images/logo.png"
   },
-  "assets/images/vietnam-flag.svg": {
-    "file": "assets/images/vietnam-flag-a81374c9.svg",
-    "src": "assets/images/vietnam-flag.svg"
-  },
-  "assets/images/flutter.svg": {
-    "file": "assets/images/flutter-7359b9e1.svg",
-    "src": "assets/images/flutter.svg"
-  },
   "assets/images/logo-full.svg": {
     "file": "assets/images/logo-full-25f91f70.svg",
     "src": "assets/images/logo-full.svg"
   },
+  "assets/images/vietnam-flag.svg": {
+    "file": "assets/images/vietnam-flag-a81374c9.svg",
+    "src": "assets/images/vietnam-flag.svg"
+  },
   "assets/images/bootstrap.svg": {
     "file": "assets/images/bootstrap-ce6fad58.svg",
     "src": "assets/images/bootstrap.svg"
+  },
+  "assets/images/avatar.jpg": {
+    "file": "assets/images/avatar-27d2ac7d.jpg",
+    "src": "assets/images/avatar.jpg"
+  },
+  "assets/images/flutter.svg": {
+    "file": "assets/images/flutter-7359b9e1.svg",
+    "src": "assets/images/flutter.svg"
   },
   "assets/images/usa-flag.svg": {
     "file": "assets/images/usa-flag-9001b193.svg",
@@ -43,10 +47,6 @@
     "file": "assets/images/html-35647250.svg",
     "src": "assets/images/html.svg"
   },
-  "assets/images/avatar.jpg": {
-    "file": "assets/images/avatar-27d2ac7d.jpg",
-    "src": "assets/images/avatar.jpg"
-  },
   "assets/images/javascript.svg": {
     "file": "assets/images/javascript-8238a57e.svg",
     "src": "assets/images/javascript.svg"
@@ -63,17 +63,13 @@
     "file": "assets/images/react-1bfd7c23.svg",
     "src": "assets/images/react.svg"
   },
-  "assets/images/card-visa.svg": {
-    "file": "assets/images/card-visa-cc5126f8.svg",
-    "src": "assets/images/card-visa.svg"
-  },
-  "assets/images/empty-profile.svg": {
-    "file": "assets/images/empty-profile-f12a120e.svg",
-    "src": "assets/images/empty-profile.svg"
-  },
   "assets/images/sign-in-cover.svg": {
     "file": "assets/images/sign-in-cover-26c06e34.svg",
     "src": "assets/images/sign-in-cover.svg"
+  },
+  "assets/images/card-visa.svg": {
+    "file": "assets/images/card-visa-cc5126f8.svg",
+    "src": "assets/images/card-visa.svg"
   },
   "assets/images/card-mastercard.svg": {
     "file": "assets/images/card-mastercard-7abcb6e2.svg",
@@ -82,6 +78,10 @@
   "assets/images/thinh-nguyen.png": {
     "file": "assets/images/thinh-nguyen-963ef495.png",
     "src": "assets/images/thinh-nguyen.png"
+  },
+  "assets/images/empty-profile.svg": {
+    "file": "assets/images/empty-profile-f12a120e.svg",
+    "src": "assets/images/empty-profile.svg"
   },
   "assets/others/thinh-nguyen-cv.pdf": {
     "file": "assets/thinh-nguyen-cv-17336e32.pdf",
@@ -92,7 +92,7 @@
     "src": "index.html",
     "isEntry": true,
     "css": [
-      "assets/css/index-93d5ed24.css"
+      "assets/css/index-295c48d9.css"
     ],
     "assets": [
       "assets/images/logo-full-25f91f70.svg",
@@ -117,7 +117,7 @@
     ]
   },
   "index.css": {
-    "file": "assets/css/index-93d5ed24.css",
+    "file": "assets/css/index-295c48d9.css",
     "src": "index.css"
   }
 }
