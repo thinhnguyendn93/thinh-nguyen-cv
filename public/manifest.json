@@ -23,13 +23,17 @@
     "file": "assets/images/avatar-27d2ac7d.jpg",
     "src": "assets/images/avatar.jpg"
   },
+  "assets/images/vietnam-flag.svg": {
+    "file": "assets/images/vietnam-flag-a81374c9.svg",
+    "src": "assets/images/vietnam-flag.svg"
+  },
   "assets/images/flutter.svg": {
     "file": "assets/images/flutter-7359b9e1.svg",
     "src": "assets/images/flutter.svg"
   },
-  "assets/images/vietnam-flag.svg": {
-    "file": "assets/images/vietnam-flag-a81374c9.svg",
-    "src": "assets/images/vietnam-flag.svg"
+  "assets/images/electron.svg": {
+    "file": "assets/images/electron-1495640d.svg",
+    "src": "assets/images/electron.svg"
   },
   "assets/images/bootstrap.svg": {
     "file": "assets/images/bootstrap-ce6fad58.svg",
@@ -39,17 +43,13 @@
     "file": "assets/images/css-b8dca14a.svg",
     "src": "assets/images/css.svg"
   },
-  "assets/images/electron.svg": {
-    "file": "assets/images/electron-1495640d.svg",
-    "src": "assets/images/electron.svg"
+  "assets/images/html.svg": {
+    "file": "assets/images/html-35647250.svg",
+    "src": "assets/images/html.svg"
   },
   "assets/images/javascript.svg": {
     "file": "assets/images/javascript-8238a57e.svg",
     "src": "assets/images/javascript.svg"
-  },
-  "assets/images/html.svg": {
-    "file": "assets/images/html-35647250.svg",
-    "src": "assets/images/html.svg"
   },
   "assets/images/c-sharp.svg": {
     "file": "assets/images/c-sharp-2a5fcf07.svg",
@@ -63,10 +63,6 @@
     "file": "assets/images/react-1bfd7c23.svg",
     "src": "assets/images/react.svg"
   },
-  "assets/images/card-visa.svg": {
-    "file": "assets/images/card-visa-cc5126f8.svg",
-    "src": "assets/images/card-visa.svg"
-  },
   "assets/images/sign-in-cover.svg": {
     "file": "assets/images/sign-in-cover-26c06e34.svg",
     "src": "assets/images/sign-in-cover.svg"
@@ -74,6 +70,10 @@
   "assets/images/empty-profile.svg": {
     "file": "assets/images/empty-profile-f12a120e.svg",
     "src": "assets/images/empty-profile.svg"
+  },
+  "assets/images/card-visa.svg": {
+    "file": "assets/images/card-visa-cc5126f8.svg",
+    "src": "assets/images/card-visa.svg"
   },
   "assets/images/card-mastercard.svg": {
     "file": "assets/images/card-mastercard-7abcb6e2.svg",
@@ -92,7 +92,7 @@
     "src": "index.html",
     "isEntry": true,
     "css": [
-      "assets/css/index-7545d78a.css"
+      "assets/css/index-81ddc1ce.css"
     ],
     "assets": [
       "assets/images/logo-full-25f91f70.svg",
@@ -117,7 +117,7 @@
     ]
   },
   "index.css": {
-    "file": "assets/css/index-7545d78a.css",
+    "file": "assets/css/index-81ddc1ce.css",
     "src": "index.css"
   }
 }

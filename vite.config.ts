@@ -28,14 +28,14 @@ export default defineConfig(({ mode }) => {
           chunkFileNames: 'app.[hash].chunk.js',
           assetFileNames: ({ name }) => {
             if (/\.(gif|jpe?g|png|svg)$/.test(name ?? '')) {
-              return 'assets/images/[name]-[hash][extname]';
+              return 'thinh-nguyen-cv/assets/images/[name]-[hash][extname]';
             }
 
             if (/\.css$/.test(name ?? '')) {
-              return 'assets/css/[name]-[hash][extname]';
+              return 'thinh-nguyen-cv/assets/css/[name]-[hash][extname]';
             }
 
-            return 'assets/[name]-[hash][extname]';
+            return 'thinh-nguyen-cv/assets/[name]-[hash][extname]';
           },
         },
       },
