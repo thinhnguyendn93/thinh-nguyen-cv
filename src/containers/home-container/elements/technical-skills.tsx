@@ -1,6 +1,7 @@
 import { Col, Row } from 'antd';
 import { useTranslation } from 'react-i18next';
 import { AnimateBox } from 'components/animate-box';
+import { RESOURCES } from 'config/constant';
 
 export function TechnicalSkills() {
   const { t } = useTranslation();
@@ -80,7 +81,12 @@ export function TechnicalSkills() {
   ];
 
   return (
-    <div className="home-page__section home-page__background">
+    <div
+      className="home-page__section home-page__background"
+      style={{
+        backgroundImage: `url(${RESOURCES.BACKGROUND})`,
+      }}
+    >
       <div className="home-page__section-wrapper">
         <AnimateBox anmateName="slideInBottom">
           <Row gutter={[16, 16]}>

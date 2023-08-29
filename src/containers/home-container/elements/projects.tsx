@@ -100,7 +100,7 @@ export function Projects() {
   };
 
   return (
-    <div className="home-page__section" id="my-projects">
+    <div className="home-page__section">
       <div className="home-page__section-wrapper">
         <Row gutter={[32, 32]}>
           <Col span={24}>

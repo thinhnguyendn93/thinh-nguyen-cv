@@ -7,7 +7,7 @@
   "award_description": "Outstanding performance",
   "awards": "Giải thưởng",
   "recognition_awards": "Giải thưởng",
-  "my_cv": "Hồ sơ cá nhân",
+  "my_cv": "CV của tôi",
   "my_tech_stacks": "Kỹ thuật",
   "technical_skills": "Kỹ năng công nghệ",
   "technical": "Kỹ thuật",
@@ -63,10 +63,12 @@
   "financial_reporting_system_description": "Thêm cơ sở dữ liệu vào hệ thống, kéo và thả bảng vào trình tạo và tạo báo cáo tài chính để xem xét.",
   "qnet_reporting_system_version_2_description": "Hợp tác với Ford Motor Company, các nhà sản xuất có thể tạo báo cáo bằng cách sử dụng cơ sở dữ liệu của riêng họ với sự hỗ trợ của giải pháp báo cáo QNet.",
   "my_email": "thinhnguyendn93@gmail.com",
-  "contact_me_via_email": "Contact me via email",
+  "contact_me_via_email": "Liên hệ",
   "english": "Tiếng Anh",
   "vietnamese": "Tiếng Việt",
   "my_tel": "+84 898 227 199",
-  "tel": "Điện thoaij",
-  "email": "Email"
+  "tel": "Điện thoại",
+  "email": "Email",
+  "my_information": "Thông tin của tôi",
+  "my_skills": "Kỹ năng của tôi"
 }

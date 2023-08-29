@@ -192,13 +192,11 @@
   }
 
   &__background {
-    background-image: resolve("assets/images/background.svg");
     background-size: 100%;
     background-repeat: no-repeat;
   }
 
   &__banner {
-    background-image: resolve("assets/images/wave-background.svg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: 100%;

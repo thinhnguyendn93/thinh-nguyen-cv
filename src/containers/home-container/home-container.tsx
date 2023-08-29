@@ -19,7 +19,10 @@ export function HomeContainer() {
       <Col className="home-page">
         <div
           className="home-page__section home-page__banner"
-          id="my-background"
+          id="my-information"
+          style={{
+            backgroundImage: `url(${RESOURCES.WAVE_BACKGROUND})`,
+          }}
         >
           <div className="home-page__section-wrapper">
             <div className="home-page__headline">
@@ -55,6 +58,7 @@ export function HomeContainer() {
                     <Col>
                       <a href={RESOURCES.CV} target="_blank">
                         <Button
+                          icon="file"
                           label={t('my_cv')}
                           type="primary"
                           size="large"
@@ -78,7 +82,7 @@ export function HomeContainer() {
         <Education />
         <div
           className="home-page__section home-page__technologies"
-          id="my-tech-stacks"
+          id="my-skills"
         >
           <Row justify="center" gutter={[64, 64]}>
             <Col span={24}>

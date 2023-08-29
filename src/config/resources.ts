@@ -19,6 +19,8 @@ import cardVisa from 'assets/images/card-visa.svg';
 import cardMastercard from 'assets/images/card-mastercard.svg';
 import thinhNguyen from 'assets/images/thinh-nguyen.png';
 import myCV from 'assets/others/thinh-nguyen-cv.pdf';
+import waveBackground from 'assets/images/wave-background.svg';
+import background from 'assets/images/background.svg';
 
 export default {
   EMPTY: emptyProfile,
@@ -42,4 +44,6 @@ export default {
   THINH_NGUYEN: thinhNguyen,
   VUE: vue,
   CV: myCV,
+  WAVE_BACKGROUND: waveBackground,
+  BACKGROUND: background,
 };
