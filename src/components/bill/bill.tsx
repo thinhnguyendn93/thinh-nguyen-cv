@@ -33,7 +33,7 @@ export function Bill(props: Props) {
       <Col span={24}>
         <div className="bill__header">
           <div className="logo">
-            <img src={RESOURCES.LOGO} />
+            <img src={RESOURCES.LOGO} alt="Logo" />
           </div>
         </div>
       </Col>

@@ -50,6 +50,7 @@ export function HomeContainer() {
                         <a
                           href="https://github.com/thinhnguyendn93"
                           target="_blank"
+                          aria-label="Github link"
                         >
                           <FontIcon name="github" size={24} color="black" />
                         </a>
@@ -73,6 +74,7 @@ export function HomeContainer() {
                 <img
                   className="home-page__banner-image"
                   src={RESOURCES.AVATAR}
+                  alt="Logo"
                 />
               </AnimateBox>
             </div>
@@ -109,6 +111,7 @@ export function HomeContainer() {
                     <img
                       className="home-page__branch-image"
                       src={RESOURCES[tech]}
+                      alt="Logo"
                     />
                   </Col>
                 ))}

@@ -123,7 +123,7 @@
     "@types/payment": "2.1.4",
     "@types/react-color": "3.0.6",
     "@types/react-credit-cards": "0.8.1",
-    "antd": "5.2.0",
+    "antd": "5.8.5",
     "antd-img-crop": "4.12.2",
     "autoprefixer": "10.4.7",
     "axios": "0.18.1",

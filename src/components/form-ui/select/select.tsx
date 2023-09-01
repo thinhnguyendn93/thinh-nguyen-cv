@@ -100,7 +100,9 @@ export function Select(props: Props) {
 
     return (
       <div className="ant-option">
-        {image && <img className="ant-option__image" src={image} />}
+        {image && (
+          <img className="ant-option__image" src={image} alt="Select image" />
+        )}
         {icon && (
           <FontIcon
             name={icon}

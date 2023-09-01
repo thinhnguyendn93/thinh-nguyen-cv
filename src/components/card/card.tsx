@@ -32,7 +32,7 @@ export function Card(props: Props) {
         ['card--border']: border,
       })}
     >
-      <img className="card__image" src={image} />
+      <img className="card__image" src={image} alt="Card image" />
       <h3 className="card__title">{title}</h3>
       {role && <h3 className="card__sub-title">{role}</h3>}
       {tags && (

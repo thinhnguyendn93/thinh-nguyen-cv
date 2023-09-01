@@ -6,7 +6,7 @@ export function Logo(): JSX.Element {
   return (
     <Link to={RouterPath.home}>
       <div className="logo">
-        <img src={RESOURCES.LOGO} />
+        <img src={RESOURCES.LOGO} alt="Logo" />
       </div>
     </Link>
   );

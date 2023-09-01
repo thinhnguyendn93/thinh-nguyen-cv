@@ -51,7 +51,7 @@
   "frameworks": "Frameworks",
   "frameworks_backend": "ExpressJS",
   "database": "Database",
-  "database_backend": "MongoDB",
+  "database_backend": "MongoDB, MySQL, SQL Server",
   "my_projects": "My projects",
   "zmining_ecosystem_description": "ZMining Ecosystem is a software system that helps users manage resources & run automation work on mobile and web browsers via their scripts.",
   "electron": "Electron",

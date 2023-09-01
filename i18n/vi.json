@@ -50,7 +50,7 @@
   "frameworks": "Frameworks",
   "frameworks_backend": "ExpressJS",
   "database": "Database",
-  "database_backend": "MongoDB",
+  "database_backend": "MongoDB, MySQL, SQL Server",
   "my_projects": "Dự án của tôi",
   "zmining_ecosystem_description": "Hệ sinh thái ZMining là một hệ thống phần mềm giúp người dùng quản lý tài nguyên & chạy công việc tự động hóa trên thiết bị di động và trình duyệt web thông qua tập lệnh của người dùng.",
   "electron": "Electron",
